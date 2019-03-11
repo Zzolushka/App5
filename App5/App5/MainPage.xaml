@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App5"
+             xmlns:Syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             x:Class="App5.MainPage">
+
+    <StackLayout>
+        <Syncfusion:SfDataGrid x:Name="dataGrid" GridDoubleTapped="DataGrid_GridDoubleTapped"
+                               ColumnSizer="Star"
+                               AllowEditing="True"
+                               EditTapAction="OnDoubleTap"
+                               NavigationMode="Cell" 
+                               SelectionMode="SingleDeselect">
+            <Syncfusion:SfDataGrid.Columns>
+                <Syncfusion:GridTextColumn MappingName="elemNameId" IsHidden="True">
+
+                </Syncfusion:GridTextColumn>
+                <Syncfusion:GridTextColumn MappingName="elemNumber">
+                     
+                </Syncfusion:GridTextColumn>
+                <Syncfusion:GridTextColumn MappingName="name">
+
+                </Syncfusion:GridTextColumn>
+                <Syncfusion:GridTextColumn MappingName="1">
+                    
+                </Syncfusion:GridTextColumn>
+                <Syncfusion:GridTextColumn MappingName="2">
+
+                </Syncfusion:GridTextColumn>
+                <Syncfusion:GridPickerColumn MappingName="3" x:Name="elemProcents" AllowEditing="True">
+                    
+                </Syncfusion:GridPickerColumn>
+            </Syncfusion:SfDataGrid.Columns>
+        </Syncfusion:SfDataGrid>
+    </StackLayout>
+
+</ContentPage>
