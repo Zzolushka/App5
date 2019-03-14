@@ -71,6 +71,11 @@ namespace App5.Droid
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode = global::App5.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_watermark = global::App5.Droid.Resource.Styleable.SfNumericTextBox_watermark;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor = global::App5.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor;
+			global::Syncfusion.ListView.XForms.Android.Resource.Drawable.inputlayout_togglecollapseicon = global::App5.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.ListView.XForms.Android.Resource.Drawable.inputlayout_togglevisibleicon = global::App5.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::App5.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::App5.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::App5.Droid.Resource.String.Load_More;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.allowNull = global::App5.Droid.Resource.Attribute.allowNull;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.borderColor = global::App5.Droid.Resource.Attribute.borderColor;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.culture = global::App5.Droid.Resource.Attribute.culture;
@@ -4091,6 +4096,9 @@ namespace App5.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
+			// aapt resource value: 0x7F070008
+			public const int ApplicationName = 2131165192;
+			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
@@ -4106,8 +4114,14 @@ namespace App5.Droid
 			// aapt resource value: 0x7F070006
 			public const int drop_below = 2131165190;
 			
+			// aapt resource value: 0x7F070007
+			public const int Hello = 2131165191;
+			
 			// aapt resource value: 0x7F070002
 			public const int library_name = 2131165186;
+			
+			// aapt resource value: 0x7F070009
+			public const int Load_More = 2131165193;
 			
 			// aapt resource value: 0x7F070003
 			public const int load_more_items = 2131165187;

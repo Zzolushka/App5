@@ -71,6 +71,11 @@ namespace App5.Droid
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode = global::App5.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_watermark = global::App5.Droid.Resource.Styleable.SfNumericTextBox_watermark;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor = global::App5.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor;
+			global::Syncfusion.ListView.XForms.Android.Resource.Drawable.inputlayout_togglecollapseicon = global::App5.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.ListView.XForms.Android.Resource.Drawable.inputlayout_togglevisibleicon = global::App5.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::App5.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::App5.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::App5.Droid.Resource.String.Load_More;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.allowNull = global::App5.Droid.Resource.Attribute.allowNull;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.borderColor = global::App5.Droid.Resource.Attribute.borderColor;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.culture = global::App5.Droid.Resource.Attribute.culture;
@@ -4112,6 +4117,15 @@ namespace App5.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f0a003e
+			public const int ApplicationName = 2131361854;
+			
+			// aapt resource value: 0x7f0a003d
+			public const int Hello = 2131361853;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int Load_More = 2131361855;
+			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;
 			
@@ -4205,23 +4219,23 @@ namespace App5.Droid
 			// aapt resource value: 0x7f0a0034
 			public const int bottom_sheet_behavior = 2131361844;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int cancel_drop = 2131361854;
+			// aapt resource value: 0x7f0a0041
+			public const int cancel_drop = 2131361857;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int character_counter_pattern = 2131361845;
 			
-			// aapt resource value: 0x7f0a003f
-			public const int drop_above = 2131361855;
+			// aapt resource value: 0x7f0a0042
+			public const int drop_above = 2131361858;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int drop_below = 2131361856;
+			// aapt resource value: 0x7f0a0043
+			public const int drop_below = 2131361859;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int library_name = 2131361852;
 			
-			// aapt resource value: 0x7f0a003d
-			public const int load_more_items = 2131361853;
+			// aapt resource value: 0x7f0a0040
+			public const int load_more_items = 2131361856;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;

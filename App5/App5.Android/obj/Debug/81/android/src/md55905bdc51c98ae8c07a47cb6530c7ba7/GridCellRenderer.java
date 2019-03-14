@@ -20,11 +20,11 @@ public class GridCellRenderer
 	}
 
 
-	public GridCellRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public GridCellRenderer (android.content.Context p0)
 	{
-		super (p0, p1, p2);
+		super (p0);
 		if (getClass () == GridCellRenderer.class)
-			mono.android.TypeManager.Activate ("Syncfusion.SfDataGrid.XForms.Droid.GridCellRenderer, Syncfusion.SfDataGrid.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+			mono.android.TypeManager.Activate ("Syncfusion.SfDataGrid.XForms.Droid.GridCellRenderer, Syncfusion.SfDataGrid.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
 	}
 
 
@@ -36,11 +36,11 @@ public class GridCellRenderer
 	}
 
 
-	public GridCellRenderer (android.content.Context p0)
+	public GridCellRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
-		super (p0);
+		super (p0, p1, p2);
 		if (getClass () == GridCellRenderer.class)
-			mono.android.TypeManager.Activate ("Syncfusion.SfDataGrid.XForms.Droid.GridCellRenderer, Syncfusion.SfDataGrid.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("Syncfusion.SfDataGrid.XForms.Droid.GridCellRenderer, Syncfusion.SfDataGrid.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 

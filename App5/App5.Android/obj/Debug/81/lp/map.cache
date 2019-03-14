@@ -28,10 +28,13 @@ SQLitePCLRaw.provider.e_sqlite3
 Syncfusion.Core.XForms.Android
 Syncfusion.Core.XForms
 Syncfusion.Data.Portable
+Syncfusion.DataSource.Portable
 Syncfusion.GridCommon.Portable
 Syncfusion.Licensing
 Syncfusion.SfDataGrid.XForms.Android
 Syncfusion.SfDataGrid.XForms
+Syncfusion.SfListView.XForms.Android
+Syncfusion.SfListView.XForms
 Syncfusion.SfNumericTextBox.Android
 Syncfusion.SfNumericTextBox.XForms.Android
 Syncfusion.SfNumericTextBox.XForms

@@ -431,6 +431,15 @@
           "lib/netstandard1.0/Syncfusion.Core.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.DataSource/16.4.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Syncfusion.DataSource.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.DataSource.Portable.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.GridCommon/16.4.0.54": {
         "type": "package",
         "compile": {
@@ -455,6 +464,21 @@
         "runtime": {
           "lib/netstandard1.0/Syncfusion.Data.Portable.dll": {},
           "lib/netstandard1.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/16.4.0.54": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.54",
+          "Syncfusion.Xamarin.DataSource": "16.4.0.54",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.54",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/netstandard1.0/Syncfusion.SfListView.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.SfListView.XForms.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.54": {
@@ -1067,7 +1091,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Xamarin.Forms/3.4.0.1029999": {
+      "Xamarin.Forms/3.4.0.1009999": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -1760,6 +1784,27 @@
         "syncfusion.xamarin.core.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.DataSource/16.4.0.54": {
+      "sha512": "A9k/zVbB2GImo/RWr+I0KZ17vDMm25ivhOXEgfpMA0dCpPFnK0D7wsqrGsUG9wGZZEv9MVZbeO0sVddE/1m0Kw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.datasource/16.4.0.54",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll",
+        "lib/netstandard1.0/Syncfusion.DataSource.Portable.XML",
+        "lib/netstandard1.0/Syncfusion.DataSource.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.dll",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.XML",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.dll",
+        "syncfusion.xamarin.datasource.16.4.0.54.nupkg.sha512",
+        "syncfusion.xamarin.datasource.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.GridCommon/16.4.0.54": {
       "sha512": "xEzHvgWy1vaSUakBkzKrGfd7VO9xsmScCe9cTcd4X7XZXK6FmCDOIpg+CoflkcqkQ90ZaE2E3T9VROzPlkkP1w==",
       "type": "package",
@@ -1819,6 +1864,32 @@
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.xml",
         "syncfusion.xamarin.sfdatagrid.16.4.0.54.nupkg.sha512",
         "syncfusion.xamarin.sfdatagrid.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfListView/16.4.0.54": {
+      "sha512": "lJ0Qh/ewxn/ieGjw6yfNr1ek/pOaJv56iPAgsFzyfma6Y/7m0vS+lJ/k4wvNW+hbYta54gaeR3H+UG8SrECrMQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sflistview/16.4.0.54",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.SfListView.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.SfListView.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
+        "syncfusion.xamarin.sflistview.16.4.0.54.nupkg.sha512",
+        "syncfusion.xamarin.sflistview.nuspec"
       ]
     },
     "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.54": {
@@ -4274,10 +4345,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Xamarin.Forms/3.4.0.1029999": {
-      "sha512": "et3gAEFuO8E+VgZU0IQnMhgk9m8mYHN6q4Cc2mKhqPV7EA7qG/aYZKojP3/dXthruoi0T18PW1+BgEW2l40D5w==",
+    "Xamarin.Forms/3.4.0.1009999": {
+      "sha512": "S+4S8iTMLLOis6lT5y4JxoEPfCHggvBLuJIpp6iwUUnRirS1dD6yQJCDZxxRLn6GksBd5UYOVBl57Edk0o45ow==",
       "type": "package",
-      "path": "xamarin.forms/3.4.0.1029999",
+      "path": "xamarin.forms/3.4.0.1009999",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4418,7 +4489,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.4.0.1029999.nupkg.sha512",
+        "xamarin.forms.3.4.0.1009999.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -4428,28 +4499,29 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.2",
       "NETStandard.Library >= 2.0.3",
       "Syncfusion.Xamarin.SfDataGrid >= 16.4.0.54",
+      "Syncfusion.Xamarin.SfListView >= 16.4.0.54",
       "System.Buffers >= 4.5.0",
-      "Xamarin.Forms >= 3.4.0.1029999"
+      "Xamarin.Forms >= 3.4.0.1009999"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mashi\\.nuget\\packages\\": {},
+    "C:\\Users\\Пупсик\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5\\App5.csproj",
+      "projectUniqueName": "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5\\App5.csproj",
       "projectName": "App5",
-      "projectPath": "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5\\App5.csproj",
-      "packagesPath": "C:\\Users\\mashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5\\obj\\",
+      "projectPath": "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5\\App5.csproj",
+      "packagesPath": "C:\\Users\\Пупсик\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Пупсик\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4487,13 +4559,17 @@
             "target": "Package",
             "version": "[16.4.0.54, )"
           },
+          "Syncfusion.Xamarin.SfListView": {
+            "target": "Package",
+            "version": "[16.4.0.54, )"
+          },
           "System.Buffers": {
             "target": "Package",
             "version": "[4.5.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.4.0.1029999, )"
+            "version": "[3.4.0.1009999, )"
           }
         },
         "imports": [

@@ -10,3 +10,16 @@ C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.Assembl
 C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
 C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
 C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csproj.CoreCompileInputs.cache
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfoInputs.cache
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfo.cs
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Pages\MultiSelectPage.xaml.g.cs
+C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
