@@ -14,7 +14,7 @@ namespace App5.Pages {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\MultiSelectPage.xaml")]
-    public partial class MultiSelectPage : global::Xamarin.Forms.ContentPage {
+    public partial class MultiSelectPage : global::Rg.Plugins.Popup.Pages.PopupPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Syncfusion.ListView.XForms.SfListView listView;

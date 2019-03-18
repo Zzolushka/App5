@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "729289c32559202dfe2880152a501143585884ea"
+    "signature": "848be95ba52e9a45cf04fc68c7929ad007b59e8e"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.2",
           "NETStandard.Library": "2.0.3",
+          "Rg.Plugins.Popup": "1.1.5.188",
           "Syncfusion.Xamarin.SfDataGrid": "16.4.0.54",
           "Syncfusion.Xamarin.SfListView": "16.4.0.54",
           "System.Buffers": "4.5.0",
@@ -267,6 +268,14 @@
         },
         "runtime": {
           "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1009999"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "runtime.native.System/4.0.0": {
@@ -959,6 +968,13 @@
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/1.1.5.188": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PE7uHJ/LuI5pSO1HpgjJ+v2KhNfftzqt/L1AoGH/5mX0fP7pcW6lG4FbUHuCFKolrzJfLLotuuET+hfN50Whpg==",
+      "path": "rg.plugins.popup/1.1.5.188",
+      "hashPath": "rg.plugins.popup.1.1.5.188.nupkg.sha512"
     },
     "runtime.native.System/4.0.0": {
       "type": "package",

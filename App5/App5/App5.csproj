@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.2" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="1.1.5.188" />
     <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="16.4.0.54" />
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.4.0.54" />
     <PackageReference Include="System.Buffers" Version="4.5.0" />
@@ -18,7 +19,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Pages\FavouriteElementsPage.xaml.cs">
+      <DependentUpon>FavouriteElementsPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\MainMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Pages\MultiSelectPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\FavouriteElementsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

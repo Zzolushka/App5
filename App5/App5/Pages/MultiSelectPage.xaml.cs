@@ -1,4 +1,7 @@
-﻿using Syncfusion.SfDataGrid.XForms;
+﻿using Rg.Plugins.Popup.Pages;
+using Rg.Plugins.Popup.Services;
+using Syncfusion.ListView.XForms;
+using Syncfusion.SfDataGrid.XForms;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -12,14 +15,17 @@ using Xamarin.Forms.Xaml;
 namespace App5.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MultiSelectPage : ContentPage
+	public partial class MultiSelectPage : PopupPage
 	{
         private int rowindex;
         private int columnindex;
         SfDataGrid dataGrid;
         private string result;
+        private ObservableCollection<object> selectedItems;
 
-        public MultiSelectPage (ObservableCollection<string> elemDescriptions,int rowindex,int columnindex,SfDataGrid dataGrid)
+      
+
+        public MultiSelectPage (ObservableCollection<elemDescription> elemDescriptions,int rowindex,int columnindex,SfDataGrid dataGrid)
 		{
 			InitializeComponent ();
             listView.ItemsSource = elemDescriptions;
@@ -27,19 +33,52 @@ namespace App5.Pages
             this.columnindex = columnindex;
             this.dataGrid = dataGrid;
             result = "";
-		}   
+            selectedItems = new ObservableCollection<object>();
+            
+        }   
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            var thisParent = (MainPage)this.Parent.Parent;
+            dataGrid.SelectedItems.Clear();
+       
+            foreach (elemDescription item in selectedItems)
+            {
+                result += ", " + item.ElemDescription;
+            };
+            if (result.Length != 0)
+            {
+                result = result.Substring(2);
+            }
             dataGrid.View.GetPropertyAccessProvider().SetValue(dataGrid.GetRecordAtRowIndex(rowindex), dataGrid.Columns[columnindex].MappingName, result);
             dataGrid.View.Refresh();
-            Navigation.PopModalAsync(); 
+            PopupNavigation.Instance.PopAsync();
+
         }
 
         private void ListView_ItemDoubleTapped(object sender, Syncfusion.ListView.XForms.ItemDoubleTappedEventArgs e)
         {
-            listView.SelectedItem
+            //elemDescription elemDescription = (elemDescription)listView.CurrentItem;
+            //result += elemDescription.ElemDescription;
+            //var a =  e.ItemType;
+        }
+
+        private void ListView_SelectionChanged(object sender, ItemSelectionChangedEventArgs e)
+        {
+            if (e.AddedItems.Count != 0)
+            {
+                selectedItems.Add(e.AddedItems[0]);
+            }
+            else
+            {
+                selectedItems.Remove(e.RemovedItems[0]);
+            }
+        }
+
+        private void ListView_SelectionChanging(object sender, ItemSelectionChangingEventArgs e)
+        {
+            
         }
     }
+
+    
 }

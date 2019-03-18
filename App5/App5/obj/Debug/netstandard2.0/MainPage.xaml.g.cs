@@ -20,7 +20,7 @@ namespace App5 {
         private global::Syncfusion.SfDataGrid.XForms.SfDataGrid dataGrid;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Syncfusion.SfDataGrid.XForms.GridPickerColumn elemDescriptions;
+        private global::Syncfusion.SfDataGrid.XForms.GridTextColumn elemDescriptions;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Syncfusion.SfDataGrid.XForms.GridPickerColumn elemProcents;
@@ -29,7 +29,7 @@ namespace App5 {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             dataGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfDataGrid.XForms.SfDataGrid>(this, "dataGrid");
-            elemDescriptions = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfDataGrid.XForms.GridPickerColumn>(this, "elemDescriptions");
+            elemDescriptions = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfDataGrid.XForms.GridTextColumn>(this, "elemDescriptions");
             elemProcents = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfDataGrid.XForms.GridPickerColumn>(this, "elemProcents");
         }
     }

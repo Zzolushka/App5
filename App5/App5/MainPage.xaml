@@ -12,6 +12,7 @@
                                EditTapAction="OnDoubleTap"
                                NavigationMode="Cell" 
                                SelectionMode="SingleDeselect"
+                               QueryRowStyle="DataGrid_QueryRowStyle"
                                >
             <Syncfusion:SfDataGrid.Columns>
                 <Syncfusion:GridTextColumn MappingName="elemNameId" IsHidden="True">
@@ -23,9 +24,9 @@
                 <Syncfusion:GridTextColumn MappingName="name">
                     
                 </Syncfusion:GridTextColumn>
-                <Syncfusion:GridPickerColumn MappingName="elemDescription" x:Name="elemDescriptions" AllowEditing="False">
+                <Syncfusion:GridTextColumn MappingName="elemDescription" x:Name="elemDescriptions" AllowEditing="False" TextAlignment="Center" >
                     
-                </Syncfusion:GridPickerColumn>
+                </Syncfusion:GridTextColumn>
                 <Syncfusion:GridTextColumn MappingName="elemStateDescription">
 
                 </Syncfusion:GridTextColumn>

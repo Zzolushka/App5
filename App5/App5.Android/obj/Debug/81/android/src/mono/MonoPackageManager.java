@@ -129,6 +129,8 @@ class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Primitives.dll",
 		"Newtonsoft.Json.dll",
 		"Remotion.Linq.dll",
+		"Rg.Plugins.Popup.dll",
+		"Rg.Plugins.Popup.Droid.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",

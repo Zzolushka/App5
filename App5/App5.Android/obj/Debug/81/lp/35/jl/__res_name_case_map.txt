@@ -1,1 +1,2 @@
-Values/Strings.xml;values/strings.xml
+Layout/ScrollViewer.axml;layout/scrollviewer.xml
+values/Strings.xml;values/strings.xml

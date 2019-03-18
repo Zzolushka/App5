@@ -20,6 +20,8 @@ Microsoft.Extensions.Options
 Microsoft.Extensions.Primitives
 Newtonsoft.Json
 Remotion.Linq
+Rg.Plugins.Popup
+Rg.Plugins.Popup.Droid
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core

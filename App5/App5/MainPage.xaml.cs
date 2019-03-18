@@ -1,5 +1,7 @@
 ﻿using App5.Pages;
 using Microsoft.EntityFrameworkCore;
+using Rg.Plugins.Popup.Services;
+using Syncfusion.Data.Extensions;
 using Syncfusion.SfDataGrid.XForms;
 using System;
 using System.Collections.Generic;
@@ -25,9 +27,10 @@ namespace App5
             InitializeComponent();
             mainPageModel = new MainPageModel();
             var elemNames = mainPageModel.elemNames;
+            dataGrid.QueryRowHeight += DataGrid_QueryRowHeight;
             dataGrid.ItemsSource = mainPageModel.elemNames; 
         }
-
+        
         private void DataGrid_GridDoubleTapped(object sender, Syncfusion.SfDataGrid.XForms.GridDoubleTappedEventArgs e)
         {
             int rowindex = e.RowColumnIndex.RowIndex;
@@ -35,28 +38,49 @@ namespace App5
 
             var rowData = dataGrid.GetRecordAtRowIndex(rowindex);
             string cellValue = dataGrid.GetCellValue(rowData, dataGrid.Columns[2].MappingName).ToString();
-            
+
 
             if (e.RowColumnIndex.ColumnIndex == 5)
             {
                 elemProcents.ItemsSource = mainPageModel.getElemWearRates(cellValue);
             }
-            //else if (e.RowColumnIndex.ColumnIndex == 3)
-            //{
-            //    elemDescriptions.ItemsSource = mainPageModel.getElemDescriptions(cellValue);
-            //}
-            Navigation.PushModalAsync(new MultiSelectPage(mainPageModel.getElemDescriptions(cellValue),rowindex,columnindex,dataGrid));   
-
+            else if (e.RowColumnIndex.ColumnIndex == 3)
+            {
+                PopupNavigation.Instance.PushAsync(new MultiSelectPage(new ObservableCollection<elemDescription>(mainPageModel.elemDescriptions.Where(el => el.elemName.name == cellValue).ToList()), rowindex, columnindex, dataGrid));
+            }
         }
 
         public void SetDescriptionValue(int rowindex,int columnindex,string result)
         {
             dataGrid.View.GetPropertyAccessProvider().SetValue(dataGrid.GetRecordAtRowIndex(rowindex), dataGrid.Columns[columnindex].MappingName, result);
+            dataGrid.Columns.ForEach(x => x.CellTextSize = 20);
+         
+            dataGrid.GridColumnSizer.ResetAutoWidth(this.dataGrid.Columns[3]);
+            dataGrid.GridColumnSizer.Refresh(true);
+           
             dataGrid.View.Refresh();
         }
 
+        private void DataGrid_QueryRowHeight(object sender, QueryRowHeightEventArgs e)
+        {
+            if (e.RowIndex > 0)
+            {
+                e.Height = SfDataGridHelpers.GetRowHeight(dataGrid, e.RowIndex);
+                e.Handled = true;
+            }
+        }
 
+        private void DataGrid_QueryRowStyle(object sender, QueryRowStyleEventArgs e)
+        {
+            if(e.RowIndex%2==0)
+            {
+                e.Style.BackgroundColor = Color.LightYellow;
+            }
+            e.Handled = true;
+        }
     }
+
+
 
     public class MainPageModel
     {

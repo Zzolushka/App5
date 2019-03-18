@@ -9,7 +9,6 @@ C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.Assembl
 C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfo.cs
 C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
 C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
-C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Пупсик\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
 C:\Users\Пупсик\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
 C:\Users\Пупсик\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
@@ -23,3 +22,6 @@ C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.
 C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
 C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Pages\MultiSelectPage.xaml.g.cs
 C:\Users\Пупсик\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\Pages\MultiSelectPage.xaml.g.cs
+C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mashi\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\Pages\MainMenuPage.xaml.g.cs

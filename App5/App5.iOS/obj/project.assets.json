@@ -273,6 +273,20 @@
           "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll": {}
         }
       },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.12": {
         "type": "package",
         "dependencies": {
@@ -707,6 +721,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.2",
+          "Rg.Plugins.Popup": "1.1.5.188",
           "Syncfusion.Xamarin.SfDataGrid": "16.4.0.54",
           "Syncfusion.Xamarin.SfListView": "16.4.0.54",
           "System.Buffers": "4.5.0",
@@ -990,6 +1005,20 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/1.1.12": {
@@ -1416,6 +1445,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.2",
+          "Rg.Plugins.Popup": "1.1.5.188",
           "Syncfusion.Xamarin.SfDataGrid": "16.4.0.54",
           "Syncfusion.Xamarin.SfListView": "16.4.0.54",
           "System.Buffers": "4.5.0",
@@ -1701,6 +1731,20 @@
           "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll": {}
         }
       },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.12": {
         "type": "package",
         "dependencies": {
@@ -2125,6 +2169,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.2",
+          "Rg.Plugins.Popup": "1.1.5.188",
           "Syncfusion.Xamarin.SfDataGrid": "16.4.0.54",
           "Syncfusion.Xamarin.SfListView": "16.4.0.54",
           "System.Buffers": "4.5.0",
@@ -2410,6 +2455,20 @@
           "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll": {}
         }
       },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll": {},
+          "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.12": {
         "type": "package",
         "dependencies": {
@@ -2834,6 +2893,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.2",
+          "Rg.Plugins.Popup": "1.1.5.188",
           "Syncfusion.Xamarin.SfDataGrid": "16.4.0.54",
           "Syncfusion.Xamarin.SfListView": "16.4.0.54",
           "System.Buffers": "4.5.0",
@@ -3161,6 +3221,37 @@
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
         "remotion.linq.2.2.0.nupkg.sha512",
         "remotion.linq.nuspec"
+      ]
+    },
+    "Rg.Plugins.Popup/1.1.5.188": {
+      "sha512": "PE7uHJ/LuI5pSO1HpgjJ+v2KhNfftzqt/L1AoGH/5mX0fP7pcW6lG4FbUHuCFKolrzJfLLotuuET+hfN50Whpg==",
+      "type": "package",
+      "path": "rg.plugins.popup/1.1.5.188",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll.mdb",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.pdb",
+        "lib/MonoAndroid/Rg.Plugins.Popup.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.pdb",
+        "lib/netstandard1.0/Rg.Plugins.Popup.dll",
+        "lib/netstandard1.0/Rg.Plugins.Popup.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.pdb",
+        "readme.txt",
+        "rg.plugins.popup.1.1.5.188.nupkg.sha512",
+        "rg.plugins.popup.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.12": {
@@ -4561,6 +4652,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "App5 >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.2",
+      "Rg.Plugins.Popup >= 1.1.5.188",
       "Syncfusion.Xamarin.SfDataGrid >= 16.4.0.54",
       "Syncfusion.Xamarin.SfListView >= 16.4.0.54",
       "System.Buffers >= 4.5.0",
@@ -4568,20 +4660,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Пупсик\\.nuget\\packages\\": {}
+    "C:\\Users\\mashi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
       "projectName": "App5.iOS",
-      "projectPath": "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
-      "packagesPath": "C:\\Users\\Пупсик\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5.iOS\\obj\\",
+      "projectPath": "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
+      "packagesPath": "C:\\Users\\mashi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Пупсик\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4594,8 +4686,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5\\App5.csproj": {
-              "projectPath": "C:\\Users\\Пупсик\\Source\\Repos\\App5\\App5\\App5\\App5.csproj"
+            "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5\\App5.csproj": {
+              "projectPath": "C:\\Users\\mashi\\source\\repos\\App5\\App5\\App5\\App5.csproj"
             }
           }
         }
@@ -4607,6 +4699,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[2.2.2, )"
+          },
+          "Rg.Plugins.Popup": {
+            "target": "Package",
+            "version": "[1.1.5.188, )"
           },
           "Syncfusion.Xamarin.SfDataGrid": {
             "target": "Package",
